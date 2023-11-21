@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Form</title>
+</head>
+<body>
+<form action="/app/user" method="POST">
+    First name: <input name="firstname" />
+    <br><br>
+    Last name: <input name="lastname" />
+    <br><br>
+    Date of Birth: <input type="date" id="bday" name="bday" />
+    <br><br>
+    Gender: <input type="radio" name="gender" value="female" checked />Female
+    <input type="radio" name="gender" value="male" />Male
+    <br><br>
+    Country: <select name="country">
+    <option>England</option>
+    <option>USA</option>
+    <option>Russia</option>
+    <option>Ukraine</option>
+    <option>Germany</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
